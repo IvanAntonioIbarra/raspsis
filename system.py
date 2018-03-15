@@ -17,6 +17,8 @@ class App(qtW.QDialog):
 		loadUi('inicio.ui',self)
 		self.btn_login.clicked.connect(self.logIn)
 		self.txt_password.setEchoMode(qtW.QLineEdit.Password)
+		#self.setEnterAction=QAction("Set Enter", self, shortcut=Qt.Key_Return, triggered=self.logIn)
+
 		
 
 	def logIn(self):
