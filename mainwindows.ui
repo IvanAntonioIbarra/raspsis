@@ -990,6 +990,26 @@
     <string>Encender</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>340</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cerrar sesión</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

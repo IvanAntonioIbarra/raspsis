@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Inicio</class>
- <widget class="QDialog" name="Inicio">
+ <class>Registro</class>
+ <widget class="QDialog" name="Registro">
   <property name="enabled">
    <bool>true</bool>
   </property>
@@ -40,9 +40,9 @@
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>54</red>
-        <green>54</green>
-        <blue>54</blue>
+        <red>73</red>
+        <green>115</green>
+        <blue>125</blue>
        </color>
       </brush>
      </colorrole>
@@ -60,9 +60,9 @@
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>54</red>
-        <green>54</green>
-        <blue>54</blue>
+        <red>73</red>
+        <green>115</green>
+        <blue>125</blue>
        </color>
       </brush>
      </colorrole>
@@ -71,18 +71,18 @@
      <colorrole role="Base">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>54</red>
-        <green>54</green>
-        <blue>54</blue>
+        <red>73</red>
+        <green>115</green>
+        <blue>125</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>54</red>
-        <green>54</green>
-        <blue>54</blue>
+        <red>73</red>
+        <green>115</green>
+        <blue>125</blue>
        </color>
       </brush>
      </colorrole>
@@ -90,7 +90,7 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>Inicio</string>
+   <string>Registro</string>
   </property>
   <widget class="QWidget" name="centralWidget" native="true">
    <property name="geometry">

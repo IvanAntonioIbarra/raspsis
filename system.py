@@ -9,6 +9,11 @@ class App2(qtW.QDialog):
 	def __init__(self):
 		super(App2,self).__init__()
 		loadUi('mainwindows.ui',self)
+
+class App3(qtW.QDialog):
+	def __init__(self):
+		super(App3,self).__init__()
+		loadUi('registro.ui',self)
 		
 
 
@@ -18,9 +23,8 @@ class App(qtW.QDialog):
 		loadUi('inicio.ui',self)
 		self.btn_login.clicked.connect(self.logIn)
 		self.txt_password.setEchoMode(qtW.QLineEdit.Password)
-		#self.setEnterAction=QAction("Set Enter", self, shortcut=Qt.Key_Return, triggered=self.logIn)
+		self.btn_registrarse.clicked.connect(self.gotoRegister)
 
-		
 
 	def logIn(self):
 		user=self.txt_user.text()
@@ -32,6 +36,10 @@ class App(qtW.QDialog):
 			w.hide()
 		else:
 			self.lbl_message.setText("Error login")
+
+	def gotoRegister(self):
+		self.dialog=App3()
+		self.dialog.show()
 
 
 if __name__ == '__main__': 
