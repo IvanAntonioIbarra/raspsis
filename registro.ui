@@ -10,19 +10,19 @@
     <x>0</x>
     <y>0</y>
     <width>290</width>
-    <height>220</height>
+    <height>230</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>290</width>
-    <height>220</height>
+    <height>230</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>290</width>
-    <height>220</height>
+    <height>230</height>
    </size>
   </property>
   <property name="palette">
@@ -97,7 +97,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>281</width>
+     <width>291</width>
      <height>241</height>
     </rect>
    </property>
@@ -105,7 +105,7 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>170</y>
+      <y>180</y>
       <width>111</width>
       <height>41</height>
      </rect>
@@ -126,7 +126,7 @@
      <rect>
       <x>10</x>
       <y>50</y>
-      <width>58</width>
+      <width>71</width>
       <height>20</height>
      </rect>
     </property>
@@ -210,7 +210,7 @@
      <rect>
       <x>10</x>
       <y>100</y>
-      <width>81</width>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
@@ -285,9 +285,9 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>10</x>
       <y>10</y>
-      <width>121</width>
+      <width>271</width>
       <height>31</height>
      </rect>
     </property>
@@ -337,6 +337,9 @@
     </property>
     <property name="text">
      <string>REGISTRO</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lbl_message">
@@ -401,7 +404,7 @@
      <rect>
       <x>10</x>
       <y>150</y>
-      <width>151</width>
+      <width>191</width>
       <height>16</height>
      </rect>
     </property>
