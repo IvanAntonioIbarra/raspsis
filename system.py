@@ -1,9 +1,9 @@
 import sys
-#import mysqlcon
 from PyQt5 import QtWidgets as qtW
 from PyQt5 import QtGui as qtG
 from PyQt5 import QtCore as qtC
 from PyQt5.uic import loadUi
+import os.path
 
 class App2(qtW.QDialog):
 	def __init__(self):
@@ -14,7 +14,34 @@ class App3(qtW.QDialog):
 	def __init__(self):
 		super(App3,self).__init__()
 		loadUi('registro.ui',self)
-		
+		self.txt_password_register.setEchoMode(qtW.QLineEdit.Password)
+		self.txt_password_2_register.setEchoMode(qtW.QLineEdit.Password)
+		self.btn_register.clicked.connect(self.register)
+	
+	def register(self):
+		user=self.txt_user_register.text()
+		password=self.txt_password_register.text()
+		password2=self.txt_password_2_register.text()
+
+		if password==password2:
+
+			if os.path.exists("database.txt"):
+				dict = eval(open("database.txt").read())
+				dictnew = {user:password}
+				dict.update(dictnew)
+				f = open("database.txt","w")
+				f.write( str(dict) )
+				f.close()
+			else:
+				dict = {user:password}
+				f = open("database.txt","w")
+				f.write( str(dict) )
+				f.close()
+
+			
+
+			
+
 
 
 class App(qtW.QDialog):
