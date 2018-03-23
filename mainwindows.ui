@@ -990,7 +990,7 @@
     <string>Encender</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btn_logout">
    <property name="geometry">
     <rect>
      <x>490</x>
